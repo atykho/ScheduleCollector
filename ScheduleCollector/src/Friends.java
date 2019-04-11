@@ -1,7 +1,6 @@
 // Create the public class for the "Friends"
 
 public class Friends {
-	private String friendName;
 	private String[] friends = new String[3];
 	
 	public Friends(String friendName) {
