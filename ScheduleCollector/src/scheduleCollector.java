@@ -67,6 +67,15 @@ public class ScheduleCollector {
 	}
 
 	//creates the friend's array
+	public static String getFriends(int index) {
+		//array of the days of the week
+		String[] weekDays = {"Alex", "Katie", "Zoe"};
+		
+		//return the day needed
+		return friends[index];
+	}
+
+	
 	public static void newInfo() {
 		//creates new array
 		String[][] times = new String[24][7];
